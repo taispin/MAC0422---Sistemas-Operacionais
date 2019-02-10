@@ -1,0 +1,48 @@
+USO:
+
+Para compilar:
+	make
+
+Para executar o ep1sh:
+	./ep1sh
+
+Para executar o ep1:
+	./ep1 n arquivo_entrada arquivo_saida d
+	onde n eh o numero do escalonador desejado,
+		 arquivo_entrada eh o nome do arquivo de trace,
+		 arquivo_saida eh o nome do arquivo de saida e
+		 d eh o parametro opcional que exibe informacoes na saida de erro.
+
+_______________________
+
+OBSERVAÇÃO:
+
+	- Eh necessaria instalacao previa das bibliotecas:
+	
+ <stdlib.h>
+ <stdio.h>
+ <string.h> 
+ <unistd.h>
+ <assert.h>
+ <sys/syscall.h> 
+ <readline/readline.h> 
+ <readline/history.h>
+ <errno.h> 
+ <linux/limits.h> 
+ <time.h>
+ <grp.h> 
+ <pthread.h>
+ <sys/wait.h>
+ <semaphore.h>
+ <sys/time.h>
+ <signal.h>
+
+
+	- A execucao do ep1 por meio do ep1sh eh feita pela mesma linha de comando.
+
+_______________________
+
+AUTORES:
+
+Bárbara de Castro Fernandes - 7577351
+Tais Aparecida Pereira Pinheiro - 758021

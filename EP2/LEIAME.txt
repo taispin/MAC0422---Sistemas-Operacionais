@@ -1,0 +1,35 @@
+USO:
+
+Para compilar:
+	make
+
+Para executar o ep2:
+
+	./ep2 d n v debug
+	
+	onde:
+	 d eh o comprimento da pista
+	 n eh o numero de ciclista
+	 v eh o numero de voltas
+	 debug	 d eh o parametro opcional que exibe informacoes da pista da tela
+
+_______________________
+
+OBSERVAÇÃO:
+
+	- Eh necessaria instalacao previa das bibliotecas:
+	
+ <stdlib.h>
+ <stdio.h>
+ <unistd.h>
+ <time.h>
+ <pthread.h>
+ <semaphore.h>
+
+
+_______________________
+
+AUTORES:
+
+Tais Aparecida Pereira Pinheiro - 758021
+Bárbara de Castro Fernandes - 7577351
